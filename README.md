@@ -43,7 +43,11 @@ Interesting approaches:
 
 # Takeaways
 
-* None yet.
+* Day 04 (Giant Squid Bingo): Read too fast and skipped over the part where diagonals don't count.
+  This was despite staring at the example where there was a diagonal line and the text said there are still no winners.
+  Check examples and assumptions.
+  Also wasted time manually typing out the indices of each row, column, and diagonal instead of using loops or something.
+  Maybe don't wastefully manually type stuff.
 
 # Posting schedule and policy
 
