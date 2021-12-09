@@ -48,6 +48,8 @@ Interesting approaches:
   Check examples and assumptions.
   Also wasted time manually typing out the indices of each row, column, and diagonal instead of using loops or something.
   Maybe don't wastefully manually type stuff.
+* Day 09 (Smoke Basin): Oops, accidentally parsed an entire row as one huge number instead of each individual cell.
+  Maybe try printing out the result of the parse to make sure you got it right!
 
 # Posting schedule and policy
 
