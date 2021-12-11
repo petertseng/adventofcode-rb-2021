@@ -50,6 +50,10 @@ Interesting approaches:
   Maybe don't wastefully manually type stuff.
 * Day 09 (Smoke Basin): Oops, accidentally parsed an entire row as one huge number instead of each individual cell.
   Maybe try printing out the result of the parse to make sure you got it right!
+* Day 11 (Dumbo Octopus): Didn't make the same parsing mistake this time!
+  However, made mistakes by using `>= 9` instead of `> 9`, forgetting diagonals, and an off-by-one.
+  Checking against the example is good!
+  Caught the first two mistakes by checking against the example and would have caught the last one by checking against the example before submitting.
 
 # Posting schedule and policy
 
