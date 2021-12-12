@@ -54,6 +54,8 @@ Interesting approaches:
   However, made mistakes by using `>= 9` instead of `> 9`, forgetting diagonals, and an off-by-one.
   Checking against the example is good!
   Caught the first two mistakes by checking against the example and would have caught the last one by checking against the example before submitting.
+* Day 12 (Passage Pathing): Reached for the wrong tool at first - thought it'd be BFS, and was very confused at how to apply that to revisiting large rooms.
+  Consider whether something is really the right tool for the job.
 
 # Posting schedule and policy
 
