@@ -56,6 +56,8 @@ Interesting approaches:
   Caught the first two mistakes by checking against the example and would have caught the last one by checking against the example before submitting.
 * Day 12 (Passage Pathing): Reached for the wrong tool at first - thought it'd be BFS, and was very confused at how to apply that to revisiting large rooms.
   Consider whether something is really the right tool for the job.
+* Day 13 (Transparent Origami): Fast on part 1 by using an equation that would correctly deduplicate folded points, but would mangle coordinates (`(coord - fold).abs`).
+  Should have slowed down and written down a few before/after values (7 maps to 3 after a fold on 5, 8 maps to 2, etc.) which would have easily gotten me the correct equations.
 
 # Posting schedule and policy
 
