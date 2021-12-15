@@ -58,6 +58,10 @@ Interesting approaches:
   Consider whether something is really the right tool for the job.
 * Day 13 (Transparent Origami): Fast on part 1 by using an equation that would correctly deduplicate folded points, but would mangle coordinates (`(coord - fold).abs`).
   Should have slowed down and written down a few before/after values (7 maps to 3 after a fold on 5, 8 maps to 2, etc.) which would have easily gotten me the correct equations.
+* Day 15 (Chiton Pathfinding): Tried to use the dynamic programming approach where you only move down and right, not taking into account that you might want to move up and left.
+  Worse, I kept getting my table initialisation wrong so wasn't even getting the right values out of that.
+  Eventually gave up and switched to actual pathfinding.
+  Don't make bad assumptions that lead to incorrect approaches.
 
 # Posting schedule and policy
 
