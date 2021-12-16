@@ -62,6 +62,11 @@ Interesting approaches:
   Worse, I kept getting my table initialisation wrong so wasn't even getting the right values out of that.
   Eventually gave up and switched to actual pathfinding.
   Don't make bad assumptions that lead to incorrect approaches.
+* Day 16 (Packet Decoder): My input was interestingly difficult: It began with `04`.
+  I noticed that I was missing two leading zeroes, but not an entire four leading zeroes associated with the `0`.
+  Guess I should assert something like `bits.size == input.size * 4` or something.
+  I think I also spent a little too much time jumping around in the text trying to pick out only relevant information (worked for day 8 part 1!), when in fact most of it was important and I'd have done better reading it from top to bottom.
+  Not easy to tell the difference between problems where you can skip reading most of it and problems where you can't.
 
 # Posting schedule and policy
 
