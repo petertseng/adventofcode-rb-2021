@@ -66,7 +66,8 @@ def packet(d, level = 0)
   [ver + subpackets.sum(&:first), val]
 end
 
-input = ARGF.read.chomp
+hex = /\A[A-F0-9]+\z/
+input = ARGV[0]&.match?(hex) ? ARGV[0] : ARGF.read.chomp
 d = input.to_i(16).digits(2).reverse
 (input.size * 4 - d.size).times { d.unshift(0) }
 puts packet(d)
