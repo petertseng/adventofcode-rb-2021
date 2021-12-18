@@ -67,6 +67,9 @@ Interesting approaches:
   Guess I should assert something like `bits.size == input.size * 4` or something.
   I think I also spent a little too much time jumping around in the text trying to pick out only relevant information (worked for day 8 part 1!), when in fact most of it was important and I'd have done better reading it from top to bottom.
   Not easy to tell the difference between problems where you can skip reading most of it and problems where you can't.
+* Day 18 (Snailfish math): I was too confused on how to do this one with recursion - it wasn't easy to determine how to propagate the values because you might need to travel all the way back down the tree and back up.
+  I gave up and went with the linked list approach, though this did make me have to spend a little extra time figuring out how to do magnitudes.
+  Not sure there's a way around this - if I had fully processed the fact that snailfish only come in pairs (not threes or more) it may have helped me reason through the recursion better.
 
 # Posting schedule and policy
 
