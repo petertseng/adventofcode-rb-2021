@@ -70,6 +70,12 @@ Interesting approaches:
 * Day 18 (Snailfish math): I was too confused on how to do this one with recursion - it wasn't easy to determine how to propagate the values because you might need to travel all the way back down the tree and back up.
   I gave up and went with the linked list approach, though this did make me have to spend a little extra time figuring out how to do magnitudes.
   Not sure there's a way around this - if I had fully processed the fact that snailfish only come in pairs (not threes or more) it may have helped me reason through the recursion better.
+* Day 20 (Trench Map): I did part 1 recursively (with caching) because I didn't want to figure out how to deal with infinite space.
+  But I forgot that you can't use `||=` for caching when your cache contains boolean values!
+  This slowed down my program to a crawl for part 2.
+  With that fixed, it would complete but would take about 2 minutes to do so.
+  Actually handling the points at infinity could have been faster.
+  So slow down and draw some pictures and reason out how many points are at infinity.
 
 # Posting schedule and policy
 
