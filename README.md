@@ -76,6 +76,8 @@ Interesting approaches:
   With that fixed, it would complete but would take about 2 minutes to do so.
   Actually handling the points at infinity could have been faster.
   So slow down and draw some pictures and reason out how many points are at infinity.
+* Day 21 (Dirac Dice): Forgot the rules of the game: each player rolls the die three times.
+  Don't discard necessary information from previous parts.
 
 # Posting schedule and policy
 
