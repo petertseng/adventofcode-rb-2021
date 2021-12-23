@@ -78,6 +78,11 @@ Interesting approaches:
   So slow down and draw some pictures and reason out how many points are at infinity.
 * Day 21 (Dirac Dice): Forgot the rules of the game: each player rolls the die three times.
   Don't discard necessary information from previous parts.
+* Day 23 (Amphipod water sort): Just wasn't sure whether to do this by hand or write code.
+  Tried to do part 1 by hand a few times, but kept getting the wrong answer.
+  Eventually did part 1 with machine assistance (my code also gave the wrong answer, but I was able to manually adjust its solution to be correct).
+  I was able to do part 2 by hand though, because my code was at the time too slow to complete part 2 in time before I finished part 2 by hand.
+  I think I could have done part 1 faster if I wasn't focused so much on getting the D's in place ASAP but instead trying out some other letters (getting B's in place is very easy).
 
 # Posting schedule and policy
 
