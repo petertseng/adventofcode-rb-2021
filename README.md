@@ -83,6 +83,10 @@ Interesting approaches:
   Eventually did part 1 with machine assistance (my code also gave the wrong answer, but I was able to manually adjust its solution to be correct).
   I was able to do part 2 by hand though, because my code was at the time too slow to complete part 2 in time before I finished part 2 by hand.
   I think I could have done part 1 faster if I wasn't focused so much on getting the D's in place ASAP but instead trying out some other letters (getting B's in place is very easy).
+* Day 24 (Arithmetic Logic Unit): Decent idea (filter out candidate values based on Z at every input), but wrong execution:
+  Ran the entire ALU program through to completion (by padding input with trailing 1s) instead of stopping at each input, meaning I was using the final Z value instead of the Z value at the points I was interested in.
+  The padding with trailing 1s was leftover from other attempts I had been trying.
+  Don't blindly copy from other attempts and make sure the right inputs are being given to the program.
 
 # Posting schedule and policy
 
